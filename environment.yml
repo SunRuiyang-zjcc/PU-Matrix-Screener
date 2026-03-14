@@ -1,0 +1,15 @@
+name: rl_matrix_env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - scikit-learn
+  - pandas
+  - numpy
+  - scipy
+  - rdkit
+  - stable-baselines3  # 核心强化学习库
+  - gym                # RL 环境框架
