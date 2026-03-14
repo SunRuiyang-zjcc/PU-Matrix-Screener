@@ -17,7 +17,7 @@
 ## 🛠️ Installation
 
 ```bash
-git clone [https://github.com/YourName/RL-Matrix-Screener.git](https://github.com/YourName/RL-Matrix-Screener.git)
+git clone [https://github.com/SunRuiyang-zjcc/RL-Matrix-Screener.git](https://github.com/SunRuiyang-zjcc/RL-Matrix-Screener.git)
 cd RL-Matrix-Screener
 conda env create -f environment.yml
 conda activate rl_matrix_env
