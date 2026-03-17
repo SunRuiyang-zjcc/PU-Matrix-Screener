@@ -1,4 +1,4 @@
-name: rl_matrix_env
+name: pu_matrix_env
 channels:
   - pytorch
   - conda-forge
@@ -6,10 +6,13 @@ channels:
 dependencies:
   - python=3.9
   - pytorch
+  - torchvision
+  - torchaudio
+  - rdkit
+  - transformers       # 用于 ChemBERTa 大模型
   - scikit-learn
+  - umap-learn         # 用于流形潜在空间可视化
   - pandas
   - numpy
   - scipy
-  - rdkit
-  - stable-baselines3  # 核心强化学习库
-  - gym                # RL 环境框架
+  - tqdm
