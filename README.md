@@ -20,7 +20,7 @@ Addressing the critical challenge of absent "negative" matrix samples, this pipe
 ## 🛠️ Installation
 
 ```bash
-git clone [https://github.com/YourName/PU-Matrix-Screener.git](https://github.com/YourName/PU-Matrix-Screener.git)
+git clone [https://github.com/SunRuiyang-zjcc/PU-Matrix-Screener.git](https://github.com/SunRuiyang-zjcc/PU-Matrix-Screener.git)
 cd PU-Matrix-Screener
 conda env create -f environment.yml
 conda activate pu_matrix_env
