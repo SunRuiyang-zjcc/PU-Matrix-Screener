@@ -8,9 +8,7 @@
 
 Addressing the critical challenge of absent "negative" matrix samples, this pipeline employs a **Physics-Constrained Positive-Unlabeled (PU) Learning strategy**, combining Density Functional Theory (DFT) attributes with Pre-trained Language Models (ChemBERTa) to navigate massive uncharted chemical spaces.
 
-<p align="center">
-  <img src="images/pu_architecture.png" alt="PU-Matrix-Screener Architecture" width="800"/>
-</p>
+
 <p align="center"><b>Figure 1: The PU-Matrix-Screener Framework.</b> Integration of DFT physics (Ei, HOMO-LUMO) and ChemBERTa embeddings, followed by physics-constrained Manifold Clustering in a PU-Learning latent space, terminating in a funnel screening for SA score and MW constraints.</p>
 
 ---
